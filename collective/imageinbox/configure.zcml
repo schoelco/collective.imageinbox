@@ -5,6 +5,7 @@
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     i18n_domain="collective.imageinbox">
 
+  <include package=".browser" />
 
   <genericsetup:registerProfile
       name="default"
