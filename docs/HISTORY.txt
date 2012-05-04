@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.0 - May 1, 2012
+1.0 - May 4, 2012
 -----------------
 
 - Initial release
