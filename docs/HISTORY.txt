@@ -1,6 +1,13 @@
 Changelog
 =========
 
+1.0.1 - September 13, 2012
+--------------------------
+
+- Fixed js error in case image has not src attribute.
+  [vipod]
+
+
 1.0 - May 4, 2012
 -----------------
 

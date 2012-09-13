@@ -15,7 +15,7 @@ function attachThickboxesToBodyImages() {
     // with '/image_fullscreen' url or there is 'image_' line inside image's tag
     // src attribute
     var a = img.parent('[href$=/image_view_fullscreen]');
-    var src = img.attr('src');
+    var src = img.attr('src') || '';
     if (a.length > 0 || src.match(/\/image_.+$/) ||
         src.match(/\/\@\@images\/.+?\/.+$/)) {
       // add cursor pointer to standalone images
